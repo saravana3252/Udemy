@@ -137,42 +137,14 @@ color: black !important;
     height: auto;
     width: 100%;
     /* background-color: yellow; */
-    position: relative;
-   
     
 }
-.banner__animation{
-    position: absolute;
-    width: 40%;
-    height: 200px;
-    top:40px;
-    left: 80px;
-    background-color: white;
-    border: 1px solid black;
-    animation-name: bannerAnimation;
-    animation-duration: 2s;
-    opacity: 1;
-    padding: 20px;
-}
 
-@keyframes bannerAnimation{
-    0%{
-        opacity: 0;
-        transform: scale(1);
-
-    }
-    100%{
-        opacity: 1;
-        transform: scale(1.2);
-    }
-}
 
 
 .banner img{
     width: 100%;
 }
-
-
 
 .courseSection{
     /* background-color: yellow; */
@@ -190,9 +162,8 @@ color: black !important;
 
 .course-card{
     /* background-color: black; */
-    height: 340px;
-    flex-basis: 20%;
-    flex-grow: 1;
+    height: 320px;
+    width: 280px;
     border: 1px solid black ;
 
     
@@ -338,10 +309,40 @@ text-decoration:none;
 .cs-custom{
   padding: 10px;
 }
+.banner{
+    position: relative;
+}
+
+
+
+.banner__animation{
+    position: absolute;
+    width: 40%;
+    height: 200px;
+    top:40px;
+    left: 80px;
+    background-color: white;
+    border: 1px solid black;
+    animation-name: bannerAnimation;
+    animation-duration: 2s;
+    opacity: 1;
+    padding: 20px;
+}
+
+@keyframes bannerAnimation{
+    0%{
+        opacity: 0;
+        transform: scale(1);
+
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
 
 
  @media (max-width:791px){
-
 
 
 
@@ -354,8 +355,9 @@ text-decoration:none;
         
     }
 
-
-
+    .banner img{
+        height: 250px;
+    }
         .navbar-collapse{
             /* background-color: blue;  */
             
@@ -428,17 +430,12 @@ text-decoration:none;
         }
         .course-card{
             /* background-color: black; */
-            height: 340px;
-            flex-basis: 40%;
+            height: 380px;
+            width: 350px;
             border: 1px solid black ;
         
             
         }
-
-.banner img{
-    height: 250px;
-}
-
         .footer{
             height: auto;
         }
@@ -540,18 +537,5 @@ text-decoration:none;
          font-weight: bold;
          margin-top: 5px !important;
          
-        }
-    }
-
-
-    @media (max-width:480px){
-       
-
-        .banner__animation{
-            height: auto;
-            width: 70%;
-            left: 5px;
-            top:5px
-
         }
     }
