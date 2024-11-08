@@ -325,7 +325,7 @@ text-decoration:none;
     border: 1px solid black;
     animation-name: bannerAnimation;
     animation-duration: 2s;
-    opacity: 1;
+    opacity: 0;
     padding: 20px;
 }
 
@@ -342,16 +342,19 @@ text-decoration:none;
 }
 
 
+
+
+
  @media (max-width:791px){
 
 
 
     .banner__animation{
         position: absolute;
-        width: 60%;
+        width: 80%;
         height: 200px;
-        top:10px;
-        left: 30px;
+        top:20px;
+        left: 50px;
         
     }
 
@@ -539,3 +542,13 @@ text-decoration:none;
          
         }
     }
+
+    @media (max-width:480px){
+        .banner__animation{
+            width: 80%;
+           top: 20px;
+            height: auto;
+    
+        }
+    }
+    
