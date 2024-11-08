@@ -542,3 +542,16 @@ text-decoration:none;
          
         }
     }
+
+
+    @media (max-width:480px){
+       
+
+        .banner__animation{
+            height: auto;
+            width: 70%;
+            left: 5px;
+            top:5px
+
+        }
+    }
