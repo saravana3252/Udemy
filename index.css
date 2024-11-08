@@ -547,6 +547,7 @@ text-decoration:none;
         .banner__animation{
             width: 80%;
            top: 20px;
+           left: 35px;
             height: auto;
     
         }
