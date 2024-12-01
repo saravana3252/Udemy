@@ -4,11 +4,8 @@
 }
 
 .navbar{
-   
+     /* background-color: yellow !important; */
     color: black;
-
-    
-
 }
 
 .navbar-brand{
@@ -19,7 +16,6 @@
     font-weight: bold;
     font-size: 25px;
     cursor: pointer;
-    
 }
 .navbar-brand:hover{
     color: black;
