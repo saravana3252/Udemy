@@ -51,14 +51,15 @@
 .nav-item{
     /* background-color: brown; */
     width: 25%;   
+  
     
 }
-.nav-item a{
-    /* background-color: blueviolet; */
+/* .nav-item a{
+    background-color: blueviolet;
     width: 92%;
     cursor: pointer;
     
-}
+} */
 
 .d-flex{
     /* background-color: black; */
@@ -76,12 +77,24 @@
 
 
 .nav-link{
-    width: 70%;
+    width: 100%;
     /* background-color: lightblue; */
 text-align: center;
 color: black !important;
 
 }
+
+.mynavLink{
+    text-align: end;
+}
+
+.mynavLink1{
+    text-align: start !important;
+}
+.mynavLink2{
+    width: 95%;
+}
+
 .me-2{
 
     border: 1px solid white;
