@@ -434,7 +434,9 @@ text-decoration:none;
         
         }
       
-        
+        .mynavLink1{
+            text-align: center !important;
+        }
         .nav-link-mod{
          border: 1px solid black;
          font-weight: bold;
@@ -547,6 +549,9 @@ text-decoration:none;
         color: black !important;
         
         }
+        .mynavLink1{
+            text-align: center !important;
+        }
       
         
         .nav-link-mod{
@@ -564,6 +569,9 @@ text-decoration:none;
            left: 35px;
             height: auto;
     
+        }
+        .mynavLink1{
+            text-align: center !important;
         }
     }
     
